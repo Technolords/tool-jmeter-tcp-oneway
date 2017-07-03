@@ -29,6 +29,7 @@
         <version.log4j2>2.7</version.log4j2>
         <version.maven.plugin.build.helper>1.12</version.maven.plugin.build.helper>
         <version.maven.plugin.compiler>3.3</version.maven.plugin.compiler>
+        <version.maven.plugin.gpg>1.5</version.maven.plugin.gpg>
         <version.maven.plugin.javadoc>2.10.4</version.maven.plugin.javadoc>
         <version.maven.plugin.release>2.5.3</version.maven.plugin.release>
         <version.maven.plugin.shade>2.4.3</version.maven.plugin.shade>
@@ -44,6 +45,28 @@
         <url>https://github.com/Technolords/tool-jmeter-tcp-oneway/</url>
         <tag>HEAD</tag>
     </scm>
+
+    <!--+
+        | License information
+        +-->
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <!--+
+        | Developers information
+        +-->
+    <developers>
+        <developer>
+            <name>Mike Ahlers</name>
+            <email>mike@technolords.net</email>
+            <organization>Technolords</organization>
+            <organizationUrl>https://www.technolords.net</organizationUrl>
+        </developer>
+    </developers>
 
     <!--+
         | Dependencies
