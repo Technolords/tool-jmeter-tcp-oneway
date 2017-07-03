@@ -4,7 +4,7 @@
 
     <groupId>net.technolords.tool.jmeter</groupId>
     <artifactId>tcp-sampler-oneway</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Technolords :: Tool :: JMeter :: TCP Sampler Oneway</name>
@@ -45,7 +45,7 @@
     <scm>
         <connection>scm:git:https://github.com/Technolords/tool-jmeter-tcp-oneway</connection>
         <url>https://github.com/Technolords/tool-jmeter-tcp-oneway/</url>
-        <tag>HEAD</tag>
+        <tag>1.0.0</tag>
     </scm>
 
     <!--+
