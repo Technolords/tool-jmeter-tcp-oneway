@@ -8,7 +8,7 @@ where there is only one way direction of data flow this becomes a problem as Jme
 nothing comes back.
 
 This sampler is different, and is designed to write data only (i.e. send) and skips any reads. This type of TCP
-handler supports use cases such as proxy and relay type of applications.
+handler supports use cases such as proxy and relay type of applications (and basically deals with one way traffic).
 
 ## References
 The table below provides some short cut links (sorted by alphabet).
