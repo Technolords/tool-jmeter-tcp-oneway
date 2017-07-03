@@ -1,5 +1,7 @@
 # TCP handler for Jmeter with a twist
 
+![badge-release](https://img.shields.io/badge/release-v1.0.0-green.svg)
+
 ## Introduction
 Out of the box JMeter comes with a variety of samplers to simulate traffic such as HTTP, JMS and more. For TCP
 these samplers are quite limited and this projects addresses this aspect somewhat. The standard TCP handler
