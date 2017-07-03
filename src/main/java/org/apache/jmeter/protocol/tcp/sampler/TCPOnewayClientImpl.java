@@ -16,13 +16,13 @@ public class TCPOnewayClientImpl extends TCPClientImpl {
 
     @Override
     public void write(OutputStream outputStream, InputStream inputStream) throws IOException {
-        LOGGER.debug("Write called...");
+        LOGGER.debug("Write called (InputStream)...");
         super.write(outputStream, inputStream);
     }
 
     @Override
     public void write(OutputStream outputStream, String s) throws IOException {
-        LOGGER.debug("Write called...");
+        LOGGER.debug("Write called (String)...");
         super.write(outputStream, s);
     }
 
