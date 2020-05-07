@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+import org.apache.jmeter.samplers.SampleResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,5 +31,10 @@ public class TCPOnewayClientImpl extends TCPClientImpl {
     public String read(InputStream inputStream) throws ReadException {
         LOGGER.debug("Read called...");
         return "";
+    }
+
+    @Override
+    public String read(InputStream inputStream, SampleResult sampleResult) throws ReadException {
+        return read(inputStream);
     }
 }
